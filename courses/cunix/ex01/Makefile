@@ -7,6 +7,8 @@ LDFLAGS		    	+= -Llib
 
 CFLAGS		    	+= -Iinclude -Wall -Wextra -Werror -g
 
+CCFLAGS 			:= -std=c99
+
 SRCS				:= $(wildcard src/*.c)
 
 OBJS				:= $(SRCS:.c=.o)
