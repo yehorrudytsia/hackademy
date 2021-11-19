@@ -2,6 +2,7 @@
 #define   LIBFT_H_
 
 #include <stddef.h>
+#include <stdlib.h>
 
 
 void ft_bzero(void *s, size_t n);
@@ -12,6 +13,10 @@ char *ft_strrchr(const char *s, int c);
 int ft_isalpha(int c);
 int ft_isdigit(int c);
 int ft_isascii(int c);
+
+
+
+div_t ft_div(int numer, int denom);
 
 
 #endif
