@@ -30,5 +30,6 @@ int ft_memcmp(const void *s1, const void *s2, size_t n);
 void ft_striter(char *s, void(*f) (char *));
 char *ft_strmap(char const *s, char (*f)(char));
 char *ft_strsub(char const *s, unsigned int start, size_t len);
+char *ft_strtrim(const char *s);
 
 #endif
