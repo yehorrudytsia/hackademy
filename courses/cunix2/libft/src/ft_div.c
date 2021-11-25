@@ -2,12 +2,10 @@
 
 div_t ft_div(int numer, int denom)
 {
-    int quot = numer / denom;
-    int rem = numer % denom;
-
     div_t result =
     {
-        quot, rem
+  	result.quot = numer / denom,
+        result.rem = numer % denom
     };
 
     return result;
